@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Doceria Doce Encanto</title>
+    <link rel="stylesheet" href="cardapio.css">
+</head>
+
+<body>
+    <nav class="navBar">
+    <div class="conteudo">
+       
+            <div>
+                
+                <ul class="navegacao-barra">
+                <li><h1>Sinhorini</h1></li>
+                <li class="orientacao-barra-icones"><a href="inicio">Inicio</a></li>
+                <li class="orientacao-barra-icones"><a href="cardapio">Cardapio</a></li>
+                <li class="orientacao-barra-icones"><a href="contato">Contato</a></li>
+                <li class="orientacao-barra-icones"><a href="sobreNos">Sobre nós</a></li>
+
+                </ul>
+            </div>
+            
+        </nav>
+        
+
+        <section class="cardapio">
+            <div class="container">
+                <div class="item">
+                    <img src="Bolo.png" alt="Doce" class="formadoImagem" onclick="toggleLista('listaBolo')">
+                    <div class="legenda">Bolos</div>
+
+                    <ul class="esconderLista" id="listaBolo">
+                        <li onclick="toggleLista('ingreChocolate')">Beijinho
+                            <ul class="ingredientes esconderLista" id="ingreChocolate">
+                                Massa branca, recheada com beijinho (doce feito com coco ralado) e cobertura chantilly
+                            </ul></li>
+                            <li onclick="toggleLista('ingreNinho')">Leite Ninho
+                                <ul class="ingredientes esconderLista" id="ingreNinho">
+                                Massa branca, recheada com brigadeiro de leite Ninho (original) e cobertura chantilly
+                                </ul></li>
+                      
+                        <li>Brigadeiro</li>
+                        <li>Bridadeiro</li>
+                        <li>Beijinho e brigadeiro</li>
+                        <li>Prestigio</li>
+                        <li>Choconinho</li>
+                        <li><strong>Bolos com Frutas</strong> </li>
+                        <li>Brigadeiro com morando</li>
+                        <li>Ninho com morando</li>
+                        <li>Ninho com Abacaxi</li>
+                        <li>Maracuja com chocolate</li>
+                        <li><strong>Bolos Especiais</strong> </li>
+                        <li>Pistache</li>
+                        <li>Nozes</li>
+                        <li>Ninho com Nutella</li>
+                        <li>Ferrero</li>
+                        <li>Frutas Vermelhas</li>
+                        <li><strong>Outras Opções</strong> </li>
+                        <li>Bolo Gelado</li>
+                        <li>Brownie</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="item">
+                    <img src="torta.png" alt="Doce" class="formadoImagem" onclick="toggleLista('listaTorta')">
+                    <div class="legenda">Tortas</div>
+
+                    <ul class="esconderLista" id="listaTorta">
+                        <li>Torta de Chocolate</li>
+                        <li>Torta de Frutas Vermelhas</li>
+                        <li>Torta de Morango</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="item">
+                    <img src="cookies.png" alt="Doce " class="formadoImagem" onclick="toggleLista('listaCookies')">
+                    <div class="legenda">Cookies</div>
+
+                    <ul class="esconderLista" id="listaCookies">
+                        <li>Cookies de Baunilha</li>
+                        <li>Cookies de chocolate</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="item">
+                    <img src="docinhos.png" alt="Doce" class="formadoImagem" onclick="toggleLista('listaDocinhos')">
+                    <div class="legenda">Docinhos</div>
+
+                    <ul class="esconderLista" id="listaDocinhos">
+                        <li>Brigadeiros</li>
+                        <li>Beijinhos</li>
+                        <li>Nesquik</li>
+                        <li>Ninho</li>
+                        <li>Mini pão de mel</li>
+                        <li>Mini trufa de nozes</li>
+                        <li>Brigadeiro no confete</li>
+                        <li>Brigadeiro no chocobol</li>
+                        <li>Brigadeiro no confeite belga</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<div class="textoInformativo">
+    <h1>❤️ Informações importantes</h1>
+
+    <h2>COMO ENCOMENDAR</h2>
+    <p>Os pedidos precisam ser realizados com 3 dias de antecedência.</p>
+    <p>No ato da encomenda, forneça todas as informações e detalhes necessários para que tudo saia o mais próximo
+        possível do que você deseja.</p>
+    <p>A confirmação do pedido é feita mediante o pagamento de 50% do valor do pedido. Sem o pagamento do sinal, seu
+        pedido <strong>NÃO estará confirmado</strong>.</p>
+    <p>Caso haja desistência, informe até 5 dias antes da data combinada e devolveremos o valor do sinal. Fora desse
+        prazo, o valor não será devolvido.</p>
+
+    <div class="dica">
+        DICA
+        <strong>Sempre mantenha o bolo e os doces refrigerados. Principalmente em dias muito quentes.</strong>
+    </div>
+    <div class="dica">
+        HORÁRIOS E RETIRADAS
+    </div>
+    <p>Os horários para retirada são:</p>
+    <p>Segunda a sexta: 10:00 às 19:00</p>
+    <p>Sábado: 10:00 às 17:00</p>
+    <p> encomendas para eventos no domingo, deverão ser retiradas no sábado.</p>
+    <p> ato da encomenda, informe o horário que você pretende retirar.</p>
+    <p> opte por entrega, eu forneço meu endereço e você poderá chamar um “Uber entregas” até o seu
+        endereço.</p>
+    <p> isso, o pedido precisa estar 100% pago. Nós não nos responsabilizamos pelas entregas de Uber.</p>
+</div>
+</div>
+</div>
+
+
+</section>
+
+<script t src="cardapio.js"></script>
+
+<footer class="footer">
+    &copy; 2025 Doceria Sinhorini 🍬
+</footer>
+</body>
+
+
+</html>
