@@ -1,0 +1,233 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom,  rgb(224, 247, 250),  rgb(255, 192, 203));
+    color: #333;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+   .navBar{
+    width: 100%;
+    background-color: #d0f0fd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 250px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+.navegacao-barra {
+  list-style: none; /*tira a condição de pontinho na frente*/
+  display: flex; /*Coloca uma do lado da outra*/
+  flex-direction: row;
+  gap: 80px;
+  
+}
+  
+  .navegacao-barra a {
+    text-decoration: none; /*tira a contição de linha a baixo das palavras*/
+    color: #00acc1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navegacao-barra a:hover {
+    color: #f381a7;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #ff6f91;
+    padding: 20px 20px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conteudo {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  
+  .container {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+
+  .textoInformativo {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2500px;
+    background-color: #ffffff;
+    color: #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+  }
+    h1 {
+    color: #f381a7;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    margin: 0px;
+  }
+
+  .inicio{
+      color: #f381a7;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 36px;
+      margin: 0px;
+      text-align: center;
+  }
+ 
+  .orientacao-barra-icones{
+    margin-top: 10px;
+  }
+  
+
+
+header {
+    background-color: #ffd5dc;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+nav {
+    background-color: #ffb6c1;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #5a2d22;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+   
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 10;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.parte1 {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 33.33%;
+    height: auto;
+    display: block;
+}
+
+.texto-sobre-imagens {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(245, 0, 224, 0.7);
+    
+}
+
+.texto-sobre-imagens h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.texto-sobre-imagens p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+
+
+.carrossel{
+    width: 85vw;
+    height: 12rem;
+    background: #ffb6c1;
+    margin: 4rem;
+    display: flex;
+    padding: 0.5rem;
+    overflow-x: auto;
+    
+    
+}
+.caixa1{
+    border: solid 2px;
+    border-color: #f6fafc;
+    margin-left: 2rem;
+}
+.carrossel::-webkit-scrollbar {
+  height: 12px;
+}
+
+.carrossel::-webkit-scrollbar-track {
+  background: #fde4ec;
+  border-radius: 10px;
+}
+
+.carrossel::-webkit-scrollbar-thumb {
+  background-color: #f48fb1;
+  border-radius: 10px;
+  border: 2px solid #fde4ec;
+}
+
+.carrossel::-webkit-scrollbar-thumb:hover {
+  background-color: #ec407a;
+}
+
+.Destaques{
+  color: #f381a7;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 36px;
+      margin: 0px;
+      text-align: center;
+
+}
+
+.icone {
+    width: 34px;
+    height: 34px;
+    transform: translate(2%, 0%) scale(1.1);
+} 

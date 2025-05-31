@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom,  rgb(224, 247, 250),  rgb(255, 192, 203));
+    color: #333;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navBar{
+    width: 100%;
+    background-color: #d0f0fd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 250px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  .navegacao-barra {
+    list-style: none; /*tira a condição de pontinho na frente*/
+    display: flex; /*Coloca uma do lado da outra*/
+    flex-direction: row;
+    gap: 80px;
+    
+  }
+  
+  .navegacao-barra a {
+    text-decoration: none; /*tira a contição de linha a baixo das palavras*/
+    color: #00acc1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navegacao-barra a:hover {
+    color: #f381a7;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #ff6f91;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conteudo {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  
+  .container {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+
+  .textoInformativo {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 25px;
+    background-color: #ffffff;
+    color: #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+  }
+    h1 {
+    color: #f381a7;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    margin: 0px;
+  }
+
+  .inicio{
+      color: #f381a7;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 36px;
+      margin: 0px;
+      text-align: center;
+  }
+ 
+  .orientacao-barra-icones{
+    margin-top: 10px;
+  }
+  
